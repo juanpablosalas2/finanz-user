@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: local
+springdoc:
+  api-docs:
+    path: /docs
+jwt:
+  secret: "eyJhbGciOiJIUzI1NiJ9eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY5NTkyMzE5MiwiaWF0IjoxNjk1OTIzMTkyfQaypp9hVp5VzMBMvPq_TV-QBiLNiayhYVXaPzrYKOS-I"
+  expiration: 3600

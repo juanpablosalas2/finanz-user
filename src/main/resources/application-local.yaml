@@ -1,0 +1,9 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/finanz
+    username: postgres
+    password: postgres
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
